@@ -1,0 +1,11 @@
+.movieList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.cardContainer{
+    display: inline-block;
+    width: 25%;
+}

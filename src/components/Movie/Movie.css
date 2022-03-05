@@ -1,0 +1,44 @@
+.card{
+    outline: 3px solid #fff;
+    border-radius: 8px;
+    display: inline-block;
+        
+}
+.btn{
+    border: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary{
+    margin-bottom: 14px;
+    background-color: #FFBF00;
+    color: #fff;
+    transition: all 0.3s;
+}
+.btn-primary:hover{
+    background-color:#e6ac00;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 14px;
+
+}
+.card-text{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    height: 9rem;
+    text-overflow:clip;
+    overflow-y: hidden;
+    padding: 0 5px;
+}
+.card-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
