@@ -16,12 +16,9 @@ const [movies, setMovies] = useState([]);
     },[]);
 
     return(
-
         <div className="container"> 
-            <MovieList data={movies} />
+        <MovieList data={movies} />
         </div>
-       
     );
 }
-
 export default Home;
