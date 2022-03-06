@@ -7,6 +7,7 @@ import ModalMovie from "../ModalMovie/ModalMovie";
 const MovieList = (props) =>{
 const [show, setShow] = useState(false);
 const [selectedMovie, setSelectedMovie] = useState();
+
 const handleClose = () => setShow(false);
 const handleShow = (e) => { setShow(true); setSelectedMovie(e.target.id);};
 const movies = useMemo(() => {

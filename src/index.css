@@ -14,8 +14,6 @@ body {
   background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5049370089832808) 100%), url(https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg);
   background-size: cover;
   background-attachment: fixed;
-  padding: 50px 0;
-  
 }
 
 code {
